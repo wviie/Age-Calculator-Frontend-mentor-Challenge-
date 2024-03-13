@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+
+<body>
+  <main>
+    <div class="age-calculator">
+      <form class="bd-form">
+        <div class="input-container">
+          <label for="day" class="label">DAY</label>
+          <input type="number" placeholder="DD" name="day" id="day" class="input">
+          <p class="err-msg" id="d-error"></p>
+        </div>
+        <div class="input-container">
+          <label for="month" class="label">MONTH</label>
+          <input type="number" placeholder="MM" name="month" id="month" class="input">
+          <p class="err-msg" id="m-error"></p>
+        </div>
+        <div class="input-container">
+          <label for="year" class="label">YEAR</label>
+          <input type="number" placeholder="YYYY" name="year" id="year" class="input">
+          <p class="err-msg" id="y-error"></p>
+        </div>
+        <button type="submit" class="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+            <g fill="none" stroke="#FFF" stroke-width="2">
+              <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+            </g>
+          </svg>
+        </button>
+      </form>
+      <hr>
+      <div class="age-container">
+        <p class="age"><span id="years">--</span>years</p>
+        <p class="age"><span id="months">--</span>months</p>
+        <p class="age"><span id="days">--</span>days</p>
+      </div>
+    </div>
+  </main>
+  <script src="main.js" differ></script>
+</body>
+
+<!-- <footer class="attribution" style="display: none">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+  Coded by <a href="#">Your Name Here</a>.
+</footer> -->
+
+</html>
